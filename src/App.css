@@ -48,6 +48,8 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  border: 2px solid black;
+  
 }
 
 .inc-exp-container > div {
@@ -92,7 +94,11 @@ input[type='number'] {
   color: white;
   text-align: center;
   padding-bottom: 2px;
+  /* border: 2px solid black; */
   /* margin-bottom: 2px; */
+}
+.form-control input {
+  border: 2px solid black;
 }
 
 .btn {
@@ -161,4 +167,7 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+h3 {
+  color: white;
 }
