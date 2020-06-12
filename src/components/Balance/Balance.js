@@ -18,7 +18,7 @@ const theme = createMuiTheme({
         color: "white",
         fontWeight: 50,
         letterSpacing: 3,
-        fontWeight: "bold"
+        
       },
     },
   });

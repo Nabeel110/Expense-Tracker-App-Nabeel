@@ -31,7 +31,7 @@ const theme = createMuiTheme({
         <div>
         
         <ThemeProvider theme={theme}>
-        <img src = {Expenses} style = {imageStyle} alt ="Expenses Image"/>
+        <img src = {Expenses} style = {imageStyle} alt ="Expenses"/>
             <Typography variant="h2" align ="center"> Nabeel Expense Tracker </Typography>
          </ThemeProvider>
         </div>
