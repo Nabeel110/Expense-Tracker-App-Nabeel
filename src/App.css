@@ -9,8 +9,8 @@
 }
 
 body {
-  /* background-color: #d50000; */
-  background-image: linear-gradient(to bottom, #CC2A49, #F36F38, #EF4648 );
+  background-color: #2930BE;
+  /* background-image: linear-gradient(to bottom, #CC2A49, #F36F38, #EF4648 ); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,11 +67,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #05fd2e;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: #f81f07;
 }
 
 label {
@@ -140,12 +140,12 @@ input[type='number'] {
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid #db1600;
 }
 
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: #db1600;
   border: 0;
   color: #fff;
   font-size: 20px;
